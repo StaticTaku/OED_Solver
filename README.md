@@ -79,10 +79,6 @@ you can define array of {f1,f2,...,fN} like this below
 ## Example
 
 Lets solve this
-$$
-    \frac{dx}{dt} = x + 2y \\
-    \frac{dy}{dt} = 2x+y
-$$
 
 $$
 \begin{eqnarray*}
