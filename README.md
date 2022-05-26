@@ -14,12 +14,14 @@ All of N-order OED return to N simultaneous OED equations,so this program only f
 Let the independent variable be $t$,and let the N simultaneous OED equations like this below.
 
 $$
-    \frac{dy_1(t)}{dt} = f_1(t,y_1,y_2,\cdot\cdot\cdot,y_N)\\
-    \frac{dy_2(t)}{dt} = f_2(t,y_1,y_2,\cdot\cdot\cdot,y_N)\\
-    \cdot \\
-    \cdot \\
-    \cdot \\
-    \frac{dy_N(t)}{dt} = f_n(t,y_1,y_2,\cdot\cdot\cdot,y_N)
+\begin{eqnarray*}
+\frac{dy_1(t)}{dt} &=& f_1(t,y_1,y_2,\cdot\cdot\cdot,y_N) \\
+\frac{dy_2(t)}{dt} &=& f_2(t,y_1,y_2,\cdot\cdot\cdot,y_N) \\
+&\cdot& \\
+&\cdot& \\
+&\cdot& \\
+\frac{dy_N(t)}{dt} &=& f_N(t,y_1,y_2,\cdot\cdot\cdot,y_N)
+\end{eqnarray*}
 $$
 
 In this program, you can define N simultaneous OED equations like this below
@@ -80,6 +82,13 @@ Lets solve this
 $$
     \frac{dx}{dt} = x + 2y \\
     \frac{dy}{dt} = 2x+y
+$$
+
+$$
+\begin{eqnarray*}
+\frac{dx}{dt} &=& x+2y \\
+\frac{dy}{dt} &=& 2x+y \\
+\end{eqnarray*}
 $$
 
 In c++,
